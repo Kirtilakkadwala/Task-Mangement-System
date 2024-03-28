@@ -10,6 +10,7 @@ public class TaskOperation {
    
    public void addTask() {
 	   System.out.println("How many task details you want to add? ");
+	   
 	   Scanner scanner  = new Scanner(System.in);
 	   int choice = scanner.nextInt();
 	   for (int i = 1; i <= choice; i++) {
